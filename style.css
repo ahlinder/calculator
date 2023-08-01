@@ -1,0 +1,23 @@
+.vertical-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.horizontal-container{
+    display: flex;
+    max-width: 250px;
+}
+
+.horizontal-container-output{
+    display: flex;
+    max-width: 240px;
+    height: 50px;
+    margin: 5px;
+    background-color: lightgrey;
+}
+
+button{
+    margin: 5px;
+    width: 40px;
+    flex: 1;
+}
