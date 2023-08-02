@@ -1,6 +1,36 @@
-.vertical-container{
+.main-container{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    min-height: 95vh;
+}
+
+h2{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.footer{
+    margin-right: 10px;
+}
+
+.gitLogo{
+    vertical-align: middle;
+}
+
+.footer-container{
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 5px;
+    margin-bottom: 20px;
+}
+
+.vertical-container{
+    display: inline-flex;
+    flex-direction: column;
+    background-color: #e7e6e1;
 }
 
 .horizontal-container{
@@ -19,21 +49,24 @@
 
 button{
     margin: 5px;
-    width: 40px;
+    width: 50px;
+    font-size: 17px;
     flex: 1;
 }
+
 
 p{
     margin: 0px;
     display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .output{
-    font-size: 14px;
+    font-size: 17px;
     margin-top: auto;
 }
 
 .memory{
-    font-size: 12px;
+    font-size: 14px;
     justify-content: end;
 }
