@@ -59,6 +59,10 @@ button{
     flex: 1;
 }
 
+button:hover{
+    opacity: 75%;
+}
+
 
 p{
     margin: 0px;
