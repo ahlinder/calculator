@@ -18,6 +18,11 @@ h2{
     vertical-align: middle;
 }
 
+.gitLogo:hover{
+    width: 30px;
+    height: 30px;
+}
+
 .footer-container{
     margin-top: auto;
     display: flex;
